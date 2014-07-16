@@ -1,0 +1,3 @@
+## Interesting values
+
+### DisableStartupSound
