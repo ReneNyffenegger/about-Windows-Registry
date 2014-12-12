@@ -5,6 +5,8 @@ Windows Registry
 
 # Misc
 
+## Navigating the registry with Powershell
+
 With [Powershell](https://github.com/ReneNyffenegger/about-powershell), its possible to navigate the registry:
 
 <pre>PS C:&gt; <b>Set-Location Set-Location HKCU:\Software\Microsoft\Windows</b>
@@ -21,6 +23,8 @@ SKC  VC Name                           Property
   2   0 TabletPC                       {}
   4  12 Windows Error Reporting        {ConfigureArchive, DisableArchive, Disabled, DisableQueue...}
 </pre>
+
+Of course, typing is less verbose if the aliases `cd` instead `Set-Location` and `ls` instead `Get-ChildItem` is used.
 
 # Links
 
