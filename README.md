@@ -8,7 +8,7 @@ Windows Registry
 With [Powershell](https://github.com/ReneNyffenegger/about-powershell), its possible to navigate the registry:
 
 <pre>PS C:&gt; <b>Set-Location Set-Location HKCU:\Software\Microsoft\Windows</b>
-PS HKCU:\Software\Microsoft\Windows&gt; Get-ChildItem
+PS HKCU:\Software\Microsoft\Windows&gt; <b>Get-ChildItem</b>
 
     Hive: HKEY_CURRENT_USER\Software\Microsoft\Windows
 
