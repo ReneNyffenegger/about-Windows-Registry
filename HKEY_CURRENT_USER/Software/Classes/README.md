@@ -1,3 +1,4 @@
+<a name="assoc" />
 ## Associating an extension with an exectuable
 
 In order to associate an extension with an executable, c key with a dot and the extension needs to be created (for example [.pl](https://github.com/ReneNyffenegger/about-Windows-Registry/tree/master/HKEY_CURRENT_USER/Software/Classes/.pl)).

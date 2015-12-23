@@ -28,6 +28,8 @@ Of course, typing is less verbose if the aliases `cd` instead `Set-Location` and
 
 # Links
 
+[Associating an extenstion with an executable](HKEY_CURRENT_USER/Software/Classes/README.md#assoc)
+
 [Offline NT Password & Registry Editor](http://pogostick.net/~pnh/ntpasswd/) is a utility that is able to reset the Password of any user.
 
 [Registry Edits](http://www.theeldergeek.com/registry_edits.htm).
