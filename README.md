@@ -26,6 +26,10 @@ SKC  VC Name                           Property
 
 Of course, typing is less verbose if the aliases `cd` instead `Set-Location` and `ls` instead `Get-ChildItem` is used.
 
+## Navigating the registry with Perl
+
+[Win32::TieRegistry](https://github.com/ReneNyffenegger/PerlModules/tree/master/Win32/TieRegistry) makes it ease to read and write to the registry with perl.
+
 # Links
 
 [Associating an extenstion with an executable](HKEY_CURRENT_USER/Software/Classes/README.md#assoc)
