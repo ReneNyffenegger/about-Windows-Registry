@@ -1,0 +1,1 @@
+Starting with Windows 10, setting this key to 1 eliminates the limitation of path lenght of 260 characters (MAX_PATH).
