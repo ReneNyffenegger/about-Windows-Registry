@@ -1,1 +1,6 @@
 1: Don't create thumbnail (thumb.db) files for network drives.
+
+See also
+  HKCU/Software/Microsoft/Windows/CurrentVersion/Explorer/Advanced/DisableThumbnailCache
+(https://github.com/ReneNyffenegger/about-Windows-Registry/blob/master/HKEY_CURRENT_USER/Software/Microsoft/Windows/CurrentVersion/Explorer/Advanced/DisableThumbnailCache)
+
