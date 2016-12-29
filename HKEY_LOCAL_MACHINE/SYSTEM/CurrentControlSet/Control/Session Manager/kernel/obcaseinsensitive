@@ -1,0 +1,1 @@
+If set to `0`, two files whose names differ in case only (such as `foobar` and `FooBar`) are possible.
