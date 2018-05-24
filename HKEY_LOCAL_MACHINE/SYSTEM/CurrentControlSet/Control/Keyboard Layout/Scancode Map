@@ -1,0 +1,9 @@
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,04,00,00,00,01,00,3a,00,3a,00,01,00,1d,e0,5c,e0,00,00,00,00
+;                 | DWORD 1   | DWORD 2   | 3 Maps    | Map 1     | Map 2     | Map 3:    | Final
+;                                         +-----------+-----------+-----------+-----------+-------------
+;                                         |           |           |           |           | Final 4 bytes
+;                                         | + 1 0000  |           |           | Map 3: Left Windows to Left Ctrl
+;                                         | Ending    |           | Map 2: Escape to Caps Lock1                                         
+;                                         |           | Map 1: Caps Lock to Escape
+;  Ctrl (Right)      E01D
+;  Windows (Right)   E05C
