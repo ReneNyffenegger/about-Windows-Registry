@@ -7,7 +7,7 @@
 @rem    HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001. The script will report these two
 @rem    keys to  be the same if invoked like so:
 @rem
-@rem       rem is-same-registry-key.bat "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001" "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet"
+@rem       is-same-registry-key.bat "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001" "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet"
 @rem
 
 
@@ -72,5 +72,3 @@
 @rem     Delete the value under the first key:
 @rem
 @reg delete  %key_1%  /v tq84_dummy                     /f 1>nul
-
-@rem is-same-registry-key.bat "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Group Policy" "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Group Policy"@
