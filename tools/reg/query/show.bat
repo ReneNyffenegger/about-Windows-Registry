@@ -32,5 +32,3 @@ rem    Restrict previous query to searching in data using
 rem    the /d flag:
 rem
        reg query HKCU\Software\tq84        /s   /f apple    /d
-
-
