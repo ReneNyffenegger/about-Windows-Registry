@@ -8,4 +8,4 @@ $officeVersion = (get-item hklm:\Software\Classes\excel.application\curVer).getV
 #
 $officeVersion = $officeVersion -replace '.*\.(\d+)', '$1.0'
 
-new-itemProperty -path HKCU:\Software\Microsoft\Office\$officeVersion\Excel\Security -name 'AccessVBOM' -value 1
+new-itemProperty -path HKCU:\Software\Microsoft\Office\$officeVersion\Excel\Security -name 'AccessVBOM' -value 1 -force | out-null
