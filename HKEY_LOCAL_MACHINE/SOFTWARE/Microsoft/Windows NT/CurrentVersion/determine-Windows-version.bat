@@ -6,7 +6,7 @@ rem needed for aligned output.
 rem
 set spaces=                  
 
-for %%v in (CurrentVersion ProductName CurrentBuildNumber EditionID InstallationType) do (
+for %%v in (CurrentVersion ProductName CurrentBuildNumber EditionID InstallationType ReleaseId) do (
   for /f "tokens=3 usebackq" %%a in (`reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v %%v`) do (
     set keyNameWithSpaces=%%v!spaces!
       rem
