@@ -1,5 +1,5 @@
 @rem
-@rem    Script to determine if two registry keys are the same keys.
+@rem    Script to determine if two registry keys refer to the same key.
 @rem
 @rem    This script was developed to check if one key is in fact a (soft) link
 @rem    to another key.
