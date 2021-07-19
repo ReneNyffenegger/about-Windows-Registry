@@ -1,4 +1,11 @@
-set-strictMode -version 2
+set-strictMode -version latest
+
+# $regKey = 'HKCU:\Console\%SystemRoot%_system32_cmd.exe'
+  $regKey = 'HKCU:\Console\%SystemRoot%_System32_WindowsPowerShell_v1.0_powershell.exe'
+
+if (! (test-path $regKey) ) {
+   $null = new-item $regKey
+}
 
 $width        =  180
 $windowHeight =   75
@@ -7,5 +14,5 @@ $bufferHeight = 9999
 $screenBufferSize =  0x10000 * $bufferHeight + $width
 $windowSize       =  0x10000 * $windowHeight + $width
 
-$eatOutput = new-itemProperty -path "HKCU:\Console\%SystemRoot%_system32_cmd.exe" -name "ScreenBufferSize" -value $screenBufferSize -force
-$eatOutput = new-itemProperty -path "HKCU:\Console\%SystemRoot%_system32_cmd.exe" -name "WindowSize"       -value $windowSize       -force
+$null = new-itemProperty -path $regKey -name ScreenBufferSize -value $screenBufferSize -force
+$null = new-itemProperty -path $regKey -name WindowSize       -value $windowSize       -force
