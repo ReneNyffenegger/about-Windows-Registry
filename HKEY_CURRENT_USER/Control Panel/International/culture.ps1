@@ -11,7 +11,8 @@ $culture.numberFormat.CurrencySymbol          = 'EUR'        #  sCurrency
 #
 # Changing the list separator seems to
 # be broken.
-# https://github.com/dotnet/runtime/issues/43795
+#   https://github.com/dotnet/runtime/issues/43795
+# use list-separator.ps1 instead.
 #  
 #
 $culture.textInfo.listSeparator               = ','          #  sList
