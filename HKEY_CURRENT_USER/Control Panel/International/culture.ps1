@@ -8,6 +8,12 @@ $culture.dateTimeFormat.pmDesignator          = ''           #  Don't show AM/PM
 $culture.numberFormat.currencyPositivePattern =  2           #  iCurrency
 $culture.numberFormat.CurrencySymbol          = 'EUR'        #  sCurrency
 
+#
+# Changing the list separator seems to
+# be broken.
+# https://github.com/dotnet/runtime/issues/43795
+#  
+#
 $culture.textInfo.listSeparator               = ','          #  sList
 
 set-culture $culture
