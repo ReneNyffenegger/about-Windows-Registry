@@ -8,4 +8,4 @@ $mapping = [byte[]] (
   0x00, 0x00, 0x00, 0x00   # final four bytes
 )
 
-new-itemProperty -path "HKLM:\SYSTEM\CurrentControlSet\Control\Keyboard Layout" -name "Scancode Map" -value $mapping -force
+$null = new-itemProperty -path "HKLM:\SYSTEM\CurrentControlSet\Control\Keyboard Layout" -name "Scancode Map" -value $mapping -force
