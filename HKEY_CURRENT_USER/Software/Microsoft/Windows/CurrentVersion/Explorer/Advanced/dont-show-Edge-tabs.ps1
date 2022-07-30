@@ -1,1 +1,1 @@
-$null = set-itemProperty HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\MultiTaskingAltTabFilter  3
+$null = set-itemProperty HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer -name MultiTaskingAltTabFilter -type dWord -value 3
