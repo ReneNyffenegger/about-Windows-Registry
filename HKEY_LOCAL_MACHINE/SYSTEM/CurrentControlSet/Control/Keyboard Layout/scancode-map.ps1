@@ -7,8 +7,8 @@ $mapping = [byte[]] (
   0x00, 0x00, 0x00, 0x00,
   0x00, 0x00, 0x00, 0x00,
   0x04, 0x00, 0x00, 0x00+  # 3 mapping + 1 ending = 0x04
-  $s_ESC    + $s_CAPS   +  # 1st mapping: escape -> caps lock
-  $s_CAPS   + $s_ESC    +  # 2nd mapping: caps lock -> escape
+  $s_ESC    + $s_CAPS   +  # 1st mapping: caps lock -> escape
+  $s_CAPS   + $s_ESC    +  # 2nd mapping: escape -> caps lock
   $s_RCTR   + $s_RWIN   +  # 3rd mapping: right windows -> right control
   0x00, 0x00, 0x00, 0x00   # final four bytes
 )
